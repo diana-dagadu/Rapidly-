@@ -51,7 +51,7 @@ const Home = () => {
               <h3>Country: <span>{company?.country}</span></h3>
               <h3>Year Founded:<span>{company?.year_founded}</span> </h3>
               <h3>Employee Count:<span>{company?.employees_count}</span> </h3>
-              <h3>Linkedin Url:<span>{company?.linkedin_url}</span> </h3>
+              <h3>Linkedin Url:<span><a href={`https://www.${company?.linkedin_url}`} rel="noreferrer" target = "_blank">{company?.linkedin_url}</a></span> </h3>
               <h3>Domain:<span>{company?.domain}</span> </h3>
             </div>
           </div>

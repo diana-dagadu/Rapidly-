@@ -12,13 +12,14 @@ const SignUp = () => {
   // getting the user inputs
   const [email, setEmail] = useState("");
 
-  
   // submitHandler
   const submitHandler = async (e) => {
     e.preventDefault();
+
     // configure redirect url
     const config = {
-      url: "http://localhost:3000/signup/complete",
+      url: "https://confident-bohr-b30900.netlify.app/signup/complete",
+      // url: "http://localhost:3000/signup/complete",
       handleCodeInApp: true,
     };
     if (!email) {
