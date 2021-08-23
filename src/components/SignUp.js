@@ -18,8 +18,6 @@ const SignUp = () => {
 
     // configure redirect url
     const config = {
-      // url: "/signup/complete",
-      // url: "https://confident-bohr-b30900.netlify.app/signup/complete",
       url: "http://localhost:3000/signup/complete",
       handleCodeInApp: true,
     };

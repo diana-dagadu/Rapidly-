@@ -16,8 +16,8 @@ const Login = ({ history }) => {
 
   
   // getting the user inputs
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+  const [email, setEmail] = useState("dianadagadu@gmail.com");
+  const [password, setPassword] = useState("11111111");
   const [isLoading, setIsLoading] = useState(false);
   // submitHandler
   const submitHandler = async (e) => {

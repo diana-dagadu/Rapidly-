@@ -16,7 +16,7 @@ const CompleteSignUp = ({ history }) => {
 
 	useEffect(() => {
 		setEmail(window.localStorage.getItem("registrationEmail"));
-	}, []);
+	}, [email]);
 
 	// submitHandler
 	const submitHandler = async (e) => {
